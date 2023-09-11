@@ -1,0 +1,27 @@
+body {
+  display: flex;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 5px;
+}
+button {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+}
+
+button:hover {
+  background-color: #ffffff;
+}
+
+button:active {
+  background-color: #ffffff;
+  color: white;
+}
+
+.img {
+  height: 25px;
+  width: 25px;
+}
