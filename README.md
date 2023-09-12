@@ -14,6 +14,9 @@ Create the 'extension' Folder: After cloning, create a folder named "extension" 
 Organize Your Icons: Inside the "extension" folder, create another folder named "icons" and move all the PNG files into this folder.
 
 2. Step 2: **Activation**
+
+   ![image](https://github.com/abheer18/timer_extension/assets/72267713/c040aed1-1604-4328-b709-e050704c84ee)
+
 Open Google Chrome: Launch your Google Chrome browser.
 
 Access Extensions: Click on the three dots in the upper-right corner of your browser to open the menu. Navigate to "More tools" and select "Extensions."
