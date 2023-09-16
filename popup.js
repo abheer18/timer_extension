@@ -2,10 +2,12 @@ let timer;
 let seconds = 0;
 let minutes = 0;
 let hours = 0;
+let timerRunning = false;
 if (localStorage.getItem('timerRunning') === 'true') {
   hours = parseInt(localStorage.getItem('hours')) || 0;
   minutes = parseInt(localStorage.getItem('minutes')) || 0;
   seconds = parseInt(localStorage.getItem('seconds')) || 0;
+  timerRunning = true;
   startTimer();
 }
 function updateTime() {
@@ -26,13 +28,17 @@ function updateTime() {
   localStorage.setItem('seconds', seconds);
 }
 function startTimer() {
+  if (!timerRunning) {
   timer = setInterval(updateTime, 1000);
   localStorage.setItem('timerRunning', 'true');
+  timerRunning = true; 
+  }
 }
 
 function pauseTimer() {
   clearInterval(timer);
   localStorage.setItem('timerRunning', 'false');
+  timerRunning = false;
 }
 
 document.getElementById('start').addEventListener('click', () => {
