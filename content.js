@@ -63,6 +63,7 @@ function createTimer() {
       startTime = Date.now() - elapsedTime;
       timer = setInterval(updateTime, 1000);
       isRunning = true;
+      timeDisplay.textContent = "00:00:00";
     }
   }
 
