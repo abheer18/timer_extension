@@ -1,7 +1,7 @@
 ![image](https://github.com/abheer18/timer_extension/assets/72267713/625fe88c-ea7f-478a-823f-ba337db3182b)
 
 
-**CODING TIMER EXTENSION**
+**TIK-TOK TIMER EXTENSION**
 
 In the world of coding, speed and accuracy go hand in hand. To help you enhance your coding skills and track your progress, we present the Coding Timer Extension. This powerful tool allows you to analyze your coding speed and practice efficiency. Follow the simple steps below to get started:
 
