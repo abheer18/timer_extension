@@ -1,5 +1,5 @@
+![image](https://github.com/abheer18/timer_extension/assets/72267713/625fe88c-ea7f-478a-823f-ba337db3182b)
 
-![image](https://github.com/abheer18/timer_extension/assets/72267713/4d702de6-c79e-4043-945b-23be6eebbe22)
 
 **CODING TIMER EXTENSION**
 
@@ -10,8 +10,6 @@ How to Use the Coding Timer Extension
 Clone the Repository: Begin by cloning the Coding Timer Extension repository.
 
 Create the 'extension' Folder: After cloning, create a folder named "extension" and place all the downloaded files into it.
-
-Organize Your Icons: Inside the "extension" folder, create another folder named "icons" and move all the PNG files into this folder.
 
 2. Step 2: **Activation**
 
@@ -28,9 +26,7 @@ Choose Your Folder: Click on the "Load Unpacked" button and select the "extensio
 Pin the Extension: Once the extension is added, locate its icon in your browser's toolbar. Right-click on the extension icon and select "Pin" to keep it readily accessible.
 
 3. Step 3: **Start Your Work**
-Activate the Timer: Click on the Timer Extension icon to start tracking your coding session.
-
-Inspect and Monitor: For additional features and information, right-click on the timer and select "Inspect."
+Activate the Timer: Click on the extension , then click on "START TIMER" your timer will appear on the tab
 
 What's Coming Next
 We are committed to improving the Coding Timer Extension to meet your evolving needs. Here's what you can look forward to:
@@ -40,6 +36,9 @@ Enhanced Functionality: We will add more features to make your coding practice e
 User-Friendly Experience: Our goal is to provide you with a seamless and intuitive user interface for a smoother experience.
 
 Stay tuned for updates and improvements, and feel free to share your feedback. Together, we'll continue to elevate your coding skills and efficiency.
+
+
+for any queries - abheer.mehrotra2001@gmail.com
 
 Thank you for choosing the Coding Timer Extension. Happy coding!
 
