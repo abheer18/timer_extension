@@ -46,6 +46,9 @@ function createTimer() {
 
   function updateTime() {
     const currentTime = Date.now();
+    if (!startTime) {
+      startTime = currentTime;
+    }
     const deltaTime = currentTime - startTime + elapsedTime;
     const seconds = Math.floor(deltaTime / 1000);
     const minutes = Math.floor(seconds / 60);
@@ -63,6 +66,7 @@ function createTimer() {
       startTime = Date.now() - elapsedTime;
       timer = setInterval(updateTime, 1000);
       isRunning = true;
+      timeDisplay.textContent = "00:00:00";
     }
   }
 
@@ -79,6 +83,7 @@ function createTimer() {
   function resetTimer() {
     clearInterval(timer);
     isRunning = false;
+    startTime = null;
     elapsedTime = 0;
     timeDisplay.textContent = "00:00:00";
   }
@@ -102,11 +107,11 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
   }
 });
 
-// Message listener for starting the timer
-chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
-  if (message.action === "startTimer") {
-    if (!document.getElementById("timer-extension")) {
-      createTimer();
-    }
-  }
-});
+// // Message listener for starting the timer
+// chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
+//   if (message.action === "startTimer") {
+//     if (!document.getElementById("timer-extension")) {
+//       createTimer();
+//     }
+//   }
+// });
